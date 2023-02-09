@@ -1,0 +1,132 @@
+/* Exercise 1 - CSS Methods */
+
+.external {
+    background-color: red;
+    font-weight: 900;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.internal {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 100
+}
+
+/* Exercise 2 - Class ID Selectors */
+
+.odd {
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, DejaVu Sans, sans-sherif;
+}
+
+.adjust-font-size {
+    font-size: 18px
+}
+
+#two {
+    color: #0000ff;
+    font-size: 24px;
+  }
+  
+  #four {
+    background-color: hsl(120, 100%, 75%);
+    font-weight: bold;
+  }
+  
+  /* Exercise 3 - Grouping Selectors */
+
+  #clickme,
+  #noclickme {
+    font-size: 28px;
+    font-family: sans-sherif;
+  }
+
+  #clickme {
+    background-color: black;
+    color: white; 
+  }
+
+  #noclickme {
+    background-color: yellow;
+  }
+
+  /* Exercise 4 - Chaining Selectors */
+
+  .lakers,
+  .kobe {
+    width: 300px;
+    height: 400px;
+  }
+
+  .lakers2 {
+    height: 190px;
+  }
+
+  .kobe2 {
+    width: 200px;
+    height: auto;
+  }
+
+  /* Exercise 5 - Descendent Combinator */
+
+  .container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .unstyled {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+  }
+
+    /* Exercise 6 - CSS Methods: fixing the giving code to match the desired outcome*/
+
+    body{
+        font-family:Arial, Helvetica, sans-serif
+      }
+
+      .para {
+        font-size: 25px;
+        text-align: left;
+        background-color: white;
+        color: black;
+        font-weight: 800;
+      }
+      
+      .parasmall-para {
+        font-size: 18px;
+        font-weight: 800;
+        text-align: left;
+        background-color: white; 
+        color: black;
+      }
+      
+      .buttonconfirm {
+        background: green;
+        color: white;
+        font-weight: bold;
+      } 
+
+      .buttoncancel {
+        background-color: white;
+      }
+      
+      .text {
+        color: rgb(0, 0, 0);
+        font-weight: 100;
+        font-size: 22px;
+      }
+      
+      .textchild {
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        font-weight: 900;
+      }
